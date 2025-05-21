@@ -1,0 +1,19 @@
+{
+    "name": "castellano/php-demo",
+    "description": "php demo activity",
+    "autoload": {
+        "psr-4": {
+            "Castellano\\PhpDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RJ Castellano"
+        }
+    ],
+    "require": {
+        "cocur/slugify": "^4.6",
+        "ramsey/uuid": "^4.7",
+        "fakerphp/faker": "^1.24"
+    }
+}
