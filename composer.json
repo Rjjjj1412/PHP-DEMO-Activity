@@ -1,15 +1,22 @@
 {
-<<<<<<< HEAD
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "castellano/php-demo",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "php demo activity",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "RJ Castellano"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1"
+        "laravel/tinker": "^2.10.1",
+        "cocur/slugify": "^4.6",
+        "ramsey/uuid": "^4.7",
+        "fakerphp/faker": "^1.24"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -24,7 +31,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Castellano\\PhpDemo\\": "src/"
         }
     },
     "autoload-dev": {
@@ -73,23 +81,4 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true
-=======
-    "name": "castellano/php-demo",
-    "description": "php demo activity",
-    "autoload": {
-        "psr-4": {
-            "Castellano\\PhpDemo\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "RJ Castellano"
-        }
-    ],
-    "require": {
-        "cocur/slugify": "^4.6",
-        "ramsey/uuid": "^4.7",
-        "fakerphp/faker": "^1.24"
-    }
->>>>>>> d6156d40ccfb9a3455fa5214255e5929ba27e5cd
 }
