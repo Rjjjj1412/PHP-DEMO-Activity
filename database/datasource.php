@@ -8,7 +8,9 @@ return [
         'genre' => 'RPG',
         'releaseDate' => 'March 24, 2015',
         'platform' => 'PS4',
-        'price' => 20
+        'price' => 20,
+        'available' => true,
+        'description' => 'Lorem Ipsum Dolor',
     ],
     [
         'id' => '2',
@@ -18,7 +20,9 @@ return [
         'genre' => 'Survival Horror',
         'releaseDate' => 'January 25, 2019',
         'platform' => 'PS, Xbox, PC',
-        'price' => 50
+        'price' => 50,
+        'available' => true,
+        'description' => 'Lorem Ipsum Dolor',
     ],
     [
         'id' => '3',
@@ -28,7 +32,9 @@ return [
         'genre' => 'Survival Co-Op',
         'releaseDate' => 'February 2 2021',
         'platform' => 'PC',
-        'price' => 30
+        'price' => 30,
+        'available' => true,
+            'description' => 'Lorem Ipsum Dolor',
     ],
     [
         'id' => '4',
@@ -38,7 +44,9 @@ return [
         'genre' => 'Psychological Horror',
         'releaseDate' => 'October 8, 2024',
         'platform' => 'PS, Xbox, PC',
-        'price' => 60
+        'price' => 60,
+        'available' => false,
+            'description' => 'Lorem Ipsum Dolor',
     ],
     [
         'id' => '5',
@@ -48,6 +56,8 @@ return [
         'genre' => 'RPG',
         'releaseDate' => 'April 24 2025',
         'platform' => 'PS, Xbox, PC',
-        'price' => 50
+        'price' => 50,
+        'available' => true,
+            'description' => 'Lorem Ipsum Dolor',
     ]
 ];
