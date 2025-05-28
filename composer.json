@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "$schema": "https://getcomposer.org/schema.json",
     "name": "laravel/laravel",
     "type": "project",
@@ -72,4 +73,23 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true
+=======
+    "name": "castellano/php-demo",
+    "description": "php demo activity",
+    "autoload": {
+        "psr-4": {
+            "Castellano\\PhpDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RJ Castellano"
+        }
+    ],
+    "require": {
+        "cocur/slugify": "^4.6",
+        "ramsey/uuid": "^4.7",
+        "fakerphp/faker": "^1.24"
+    }
+>>>>>>> d6156d40ccfb9a3455fa5214255e5929ba27e5cd
 }
